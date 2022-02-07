@@ -2,7 +2,7 @@ language: cpp
 sudo: required
 compiler: clang
 script:
- - echo abcd
+ - make && make test
 os: linux
 group: stable
 dist: rhel
