@@ -5,4 +5,4 @@ script:
  - echo abc
 os: linux
 group: stable
-dist: rhel
+dist: trusty
