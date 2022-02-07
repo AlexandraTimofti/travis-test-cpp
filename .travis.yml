@@ -1,0 +1,8 @@
+language: cpp
+sudo: required
+compiler: clang
+script:
+ - echo abc
+os: linux
+group: stable
+dist: rhel
