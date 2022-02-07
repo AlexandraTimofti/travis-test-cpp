@@ -5,4 +5,4 @@ script:
  - make && make test
 os: linux
 group: stable
-dist: rhel
+dist: trusty
