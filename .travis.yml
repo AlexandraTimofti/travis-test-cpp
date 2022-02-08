@@ -8,6 +8,5 @@ script:
  - ./hello
 os: linux
 group: stable
-dist:
- - rhel
- - trusty
+dist: rhel
+
