@@ -1,2 +1,2 @@
 compile:
-	$CXX -Wall hello.cpp -o hello
+	$$CXX -Wall hello.cpp -o hello
