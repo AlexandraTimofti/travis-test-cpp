@@ -1,8 +1,9 @@
 language: cpp
 sudo: required
-compiler: clang
+compiler: gcc
 script:
- - make && make test
+ - make
+ - ./hello
 os: linux
 group: stable
 dist: trusty
