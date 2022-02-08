@@ -1,9 +1,13 @@
 language: cpp
 sudo: required
-compiler: gcc
+compiler:
+ - gcc
+ - clang
 script:
  - make
  - ./hello
 os: linux
 group: stable
-dist: rhel
+dist:
+ - rhel
+ - trusty
