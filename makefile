@@ -1,2 +1,2 @@
 compile:
-	gcc -Wall hello.cpp -o hello
+	g++ -Wall hello.cpp -o hello
